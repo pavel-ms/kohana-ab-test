@@ -1,0 +1,7 @@
+# sys project files
+.vagrant
+.idea
+
+# kohana cache
+application/cache/*
+application/logs/*
