@@ -10,6 +10,7 @@ class Controller_Auth extends Controller
 	 */
 	public function action_login()
 	{
+        $model = ORM::factory('User');
 		$this->response->body(View::factory('auth/login'));
 	}
 

@@ -1,4 +1,9 @@
 <?php
+/**
+ * Disable deprecated errors
+ * because of using mysql extension!!!
+ */
+error_reporting(E_ALL & ~E_DEPRECATED);
 
 /**
  * The directory in which your application specific resources are located.
