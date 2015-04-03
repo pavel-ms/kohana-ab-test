@@ -1,0 +1,27 @@
+{
+  "name": "ab-test frontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pavel-ms/kohana-ab-test",
+  "authors": [
+    "Pavel Mikushin <pavelmics@gmail.com>"
+  ],
+  "description": "Frontend application for ab-tes",
+  "keywords": [
+    "AB-test"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+
+  "dependencies": {
+    "underscore": "1.8.*",
+    "jquery": "1.11.1",
+    "bootstrap": "3.3.*"
+  }
+}

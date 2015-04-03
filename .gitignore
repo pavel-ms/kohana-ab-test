@@ -5,3 +5,6 @@
 # kohana cache
 application/cache/*
 application/logs/*
+
+# composer install directory
+vendor
