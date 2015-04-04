@@ -11,7 +11,7 @@ trait Component_AuthRequired
 	/**
 	 * @var string
 	 */
-	public $default_role = 'user';
+	public $default_role = 'login';
 
 	/**
 	 * Checks auth
