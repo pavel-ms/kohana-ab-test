@@ -18,10 +18,10 @@ return array
 			 *
 			 * Ports and sockets may be appended to the hostname.
 			 */
-			'hostname'   => 'localhost',
-			'database'   => 'ab-test',
-			'username'   => 'root',
-			'password'   => '310791',
+			'hostname'   => 'us-cdbr-iron-east-02.cleardb.net',
+			'database'   => 'heroku_52c479c52aefdae',
+			'username'   => 'bcd960fba82705',
+			'password'   => '2ba94fdc',
 			'persistent' => TRUE,
 		),
 		'table_prefix' => '',
