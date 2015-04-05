@@ -12,7 +12,16 @@ class Controller_Index extends Controller
 	 */
 	public function action_index()
 	{
-		$this->response->body(View::factory('index/index'));
+        $usr = Auth::instance()->get_user();
+
+        $user_tests = ORM::factory('AbTest')
+            ->where('user_id', '=', $usr->id)
+            ->find_all();
+        //print_r($user_tests);exit;
+
+        $this->response->body(View::factory('index/index', [
+            'user_tests' => $user_tests,
+        ]));
 	}
 
 } // End Index

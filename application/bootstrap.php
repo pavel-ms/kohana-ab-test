@@ -145,6 +145,19 @@ Kohana::modules(array(
  */
 Cookie::$salt = 'n2-H8bvvC5!-cookie';
 
+
+Route::set('ab-test', 'ab-test(/<action>(/<id>))')
+    ->defaults([
+        'controller' => 'AbTest',
+        'action'     => 'index',
+    ]);
+
+Route::set('analytics', 'analytics(/<action>)')
+    ->defaults([
+        'controller' => 'Analytics',
+        'action'     => 'index',
+    ]);
+
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.

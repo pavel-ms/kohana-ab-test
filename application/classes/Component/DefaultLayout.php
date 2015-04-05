@@ -13,6 +13,7 @@ trait Component_DefaultLayout
 		if (!$this instanceof Controller)
 			throw new Kohana_Exception('The `Component_DefaultLayout` trait must be used by Controller class');
 
+        // if we are logged in, we'll send user to tmpl
         $usr = Auth::instance()->logged_in()
             ? Auth::instance()->get_user()
             : null;

@@ -1,8 +1,3 @@
-<?php
-if (isset($errors)) {
-    //print_r($errors);exit;
-}
-?>
 <div class="row">
     <div class="col-md-12">
         <!-- Auth form -->
