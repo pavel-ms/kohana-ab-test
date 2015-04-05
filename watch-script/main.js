@@ -7,7 +7,7 @@
 	var Q = null
 		, cookie = null;
 
-    var ROOT_URL = '//cohana-ab-test.herokuapp.com//index.php/analytics/';
+    var ROOT_URL = '//cohana-ab-test.herokuapp.com/index.php/analytics/';
     var COOKIE_KEY = '$$__ab_test_variant';
 
     var BOOTSTRAP_PAGE = 'bootstrap';
