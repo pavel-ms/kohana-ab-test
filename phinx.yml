@@ -6,19 +6,19 @@ environments:
     default_database: development
     production:
         adapter: mysql
-        host: localhost
-        name: production_db
-        user: root
-        pass: ''
+        host: us-cdbr-iron-east-02.cleardb.net
+        name: heroku_52c479c52aefdae
+        user: bcd960fba82705
+        pass: 2ba94fdc
         port: 3306
         charset: utf8
 
     development:
         adapter: mysql
-        host: localhost
-        name: ab-test
-        user: root
-        pass: '310791'
+        host: us-cdbr-iron-east-02.cleardb.net
+        name: heroku_52c479c52aefdae
+        user: bcd960fba82705
+        pass: 2ba94fdc
         port: 3306
         charset: utf8
 
