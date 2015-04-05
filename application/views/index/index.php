@@ -3,7 +3,7 @@
         <h1>Ваши AB-тесты</h1>
     </div>
     <div class="col-md-2" style="padding-top: 30px;">
-        <a class="btn btn-primary" href="/ab-test/new">Создать новый тест</a>
+        <a class="btn btn-primary" href="/index.php/ab-test/new">Создать новый тест</a>
     </div>
 </div>
 
