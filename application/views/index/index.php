@@ -12,7 +12,7 @@
         <?php foreach ($user_tests as $t) { ?>
             <div>
                 <h3>
-                    <a href="/ab-test/view/<?= $t->id ?>">
+                    <a href="/index.php/ab-test/view/<?= $t->id ?>">
                         <?= $t->name; ?>
                     </a>
                 </h3>

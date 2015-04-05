@@ -3,7 +3,7 @@
     <div class="col-md-12">
 
         <!-- Ab Test Create form -->
-        <?= Form::open('/ab-test/new', ['class' => 'form-horizontal']); ?>
+        <?= Form::open('/index.php/ab-test/new', ['class' => 'form-horizontal']); ?>
         <div class="form-group <?= isset($errors['name']) ? 'has-error' : ''; ?>">
             <label for="ab-test-name" class="col-md-2 control-label">Название теста</label>
             <div class="col-md-6">
