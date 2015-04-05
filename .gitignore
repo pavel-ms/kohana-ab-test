@@ -3,8 +3,8 @@
 .idea
 
 # kohana cache
-application/cache/*
-application/logs/*
+#application/cache/*
+#application/logs/*
 
 # composer install directory
 vendor
